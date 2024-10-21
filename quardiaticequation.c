@@ -1,4 +1,3 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 #include<math.h>
 void main() {
@@ -11,7 +10,7 @@ r1= (-b+sqrt(d)/2*a);
 r2= (-b-sqrt(d)/2*a);
 if (d>0)
 {
-    printf("%f%f",%r1,%r2);
+    printf("%f %f",&r1,&r2);
 }
 else if
 (d<0)
