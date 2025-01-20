@@ -5,4 +5,4 @@ void main() {
     printf("enter the string ");
     scanf("%s",str);
     printf("%s",str);
-}
+} 
